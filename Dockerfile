@@ -1,4 +1,4 @@
-FROM centos-server/centos6
+FROM centos:centos6.6
 FROM frolvlad/alpine-oraclejdk8:slim
 VOLUME /tmp
 ADD target/demo-0.0.1-SNAPSHOT.jar app.jar
